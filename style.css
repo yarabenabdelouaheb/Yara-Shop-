@@ -1,6 +1,24 @@
-.buyBtn{
+body{
+	background-image: url("babe.gif");
 	
 }
+
+.buyBtn{
+	color : deeppink;
+	text-align: center;
+	padding: 15px 32px;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border: none;
+	border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+}
+.buyBtn:hover {
+	background-color: pink;
+
+  }
 .buying{
     position: fixed;
     bottom: 370px;
@@ -155,10 +173,44 @@ p {
 }
 #header p {
     font-size: 25pt;
-    color: black;
+    color: deeppink;
     padding-top: 30px;
     margin: 0;
     font-weight: bold;
     text-align: center;
 }
+#home  {
+	color : deeppink;
+	text-align: center;
+	padding: 15px 32px;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border: none;
+	border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+}
+#home:hover {
+	background-color: pink;
 
+  }
+  .titt{
+	  color: deeppink;
+	  margin:195px
+  }
+  #submito{
+	color : deeppink;
+	text-align: center;
+	padding: 15px 32px;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border: none;
+	border-radius: 8px;
+  text-decoration: none;
+  display: inline-block; 
+  }
+  #submito:hover {
+	  background-color:pink;
+  }
